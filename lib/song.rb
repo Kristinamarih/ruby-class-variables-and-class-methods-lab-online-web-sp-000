@@ -26,9 +26,9 @@ class Song
     @@artists.uniq 
   end
   
-   @@genre_count = {}
+   @@genres = {}
   def self.genre_count
-    
+    @@genres = hash.new
    
     
   end
